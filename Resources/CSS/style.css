@@ -164,3 +164,33 @@ nav {
 #philosophy {
   margin-right: 5%;
 }
+
+/* Footer Section */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: azure;
+  margin-top: 5rem;
+}
+
+#logo {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+}
+
+#logo img {
+  height: 1.5rem;
+  width: auto;
+  padding-right: 1rem;
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-bottom: 4rem;
+}
+
+#logo span {
+  color: black;
+}
