@@ -2,7 +2,7 @@
 
 * {
   font-family: helvetica, sans-serif;
-  color: blue;
+  color: white;
 }
 
 html {
@@ -98,6 +98,10 @@ nav {
   margin-bottom: 3rem;
 }
 
+#servicescontent p {
+  color: black;
+}
+
 .serviceslogo {
   display: flex;
   flex-wrap: wrap;
@@ -127,4 +131,36 @@ nav {
   height: auto;
   margin-right: 3rem;
   margin-left: 3rem;
+}
+
+/* Philosophy & Appoitments Section */
+
+#pasection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.paheaders h2 {
+  font-weight: bold;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 10rem;
+  background-color: cadetblue;
+}
+
+.paheaders {
+  width: 35%;
+}
+
+.paheaders p {
+  color: black;
+  padding-top: 1rem;
+}
+
+#philosophy {
+  margin-right: 5%;
 }
