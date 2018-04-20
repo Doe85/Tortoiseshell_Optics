@@ -194,3 +194,36 @@ nav {
 #logo span {
   color: black;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 760px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  main {
+    background-image: url(../glasses-bg.png);
+    height: 22rem;
+    width: auto;
+    background-size: cover;
+  }
+
+  .maintext {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: white;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    float: right;
+  }
+
+  .maintext h1 {
+    padding: 0.75rem 4rem;
+    font-weight: bold;
+    font-size: 1.33rem;
+    line-height: 1.2;
+    color: black;
+  }
+}
